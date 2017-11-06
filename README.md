@@ -1,8 +1,7 @@
-# The AusDigital UBL Syntax 2.0 Specification reference implementation 
-A JSON &lt;-> XML validation service for UBL JSON messages.
+# Simple specification render application 
 
 Node JS Express web application.
-
+Allows to render a list of links to the specifications in the private repos and redirects to swagger UI installation. 
 
 ## Deployment
 
@@ -24,4 +23,4 @@ if you have docker-compose (`pip install docker-compose`) you can use it:
 
 `docker-compose up` or `docker-compose up -d` for detached (daemon) mode.
 
-This will listen 3030 port, check docker-compose.yml for details about the port.
+This will listen 3031 port, check docker-compose.yml for details about the port.
