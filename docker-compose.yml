@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    build: .
+    image: spec-render:latest
+    container_name: spec-render
+    ports:
+      - "3031:3000"
